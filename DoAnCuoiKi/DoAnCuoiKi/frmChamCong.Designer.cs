@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChamCong));
             this.rbtKhongPhep = new System.Windows.Forms.RadioButton();
             this.rbtCoPhep = new System.Windows.Forms.RadioButton();
             this.dtpToDay = new System.Windows.Forms.DateTimePicker();
@@ -41,9 +42,11 @@
             // rbtKhongPhep
             // 
             this.rbtKhongPhep.AutoSize = true;
+            this.rbtKhongPhep.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.rbtKhongPhep.ForeColor = System.Drawing.Color.Red;
             this.rbtKhongPhep.Location = new System.Drawing.Point(503, 179);
             this.rbtKhongPhep.Name = "rbtKhongPhep";
-            this.rbtKhongPhep.Size = new System.Drawing.Size(83, 17);
+            this.rbtKhongPhep.Size = new System.Drawing.Size(107, 23);
             this.rbtKhongPhep.TabIndex = 24;
             this.rbtKhongPhep.TabStop = true;
             this.rbtKhongPhep.Text = "Không phép";
@@ -53,9 +56,11 @@
             // rbtCoPhep
             // 
             this.rbtCoPhep.AutoSize = true;
+            this.rbtCoPhep.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.rbtCoPhep.ForeColor = System.Drawing.Color.Red;
             this.rbtCoPhep.Location = new System.Drawing.Point(386, 179);
             this.rbtCoPhep.Name = "rbtCoPhep";
-            this.rbtCoPhep.Size = new System.Drawing.Size(65, 17);
+            this.rbtCoPhep.Size = new System.Drawing.Size(82, 23);
             this.rbtCoPhep.TabIndex = 23;
             this.rbtCoPhep.TabStop = true;
             this.rbtCoPhep.Text = "Có phép";
@@ -70,18 +75,22 @@
             // 
             // btnNghi
             // 
+            this.btnNghi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.btnNghi.ForeColor = System.Drawing.Color.Red;
             this.btnNghi.Location = new System.Drawing.Point(386, 244);
             this.btnNghi.Name = "btnNghi";
-            this.btnNghi.Size = new System.Drawing.Size(75, 23);
+            this.btnNghi.Size = new System.Drawing.Size(99, 37);
             this.btnNghi.TabIndex = 20;
             this.btnNghi.Text = "Vắng mặt";
             this.btnNghi.UseVisualStyleBackColor = true;
             // 
             // btnDiemDanh
             // 
+            this.btnDiemDanh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.btnDiemDanh.ForeColor = System.Drawing.Color.Red;
             this.btnDiemDanh.Location = new System.Drawing.Point(386, 110);
             this.btnDiemDanh.Name = "btnDiemDanh";
-            this.btnDiemDanh.Size = new System.Drawing.Size(75, 23);
+            this.btnDiemDanh.Size = new System.Drawing.Size(99, 35);
             this.btnDiemDanh.TabIndex = 19;
             this.btnDiemDanh.Text = "Có mặt";
             this.btnDiemDanh.UseVisualStyleBackColor = true;
@@ -90,11 +99,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(44, 22);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(216, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 31);
+            this.label1.Size = new System.Drawing.Size(183, 31);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Danh sách công nhân";
+            this.label1.Text = "CHẤM CÔNG";
             // 
             // dataGridView1
             // 
@@ -108,6 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(646, 523);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.rbtKhongPhep);
@@ -116,6 +127,7 @@
             this.Controls.Add(this.btnNghi);
             this.Controls.Add(this.btnDiemDanh);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmChamCong";
             this.Text = "Chấm công";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

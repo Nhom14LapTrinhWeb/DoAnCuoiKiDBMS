@@ -1,6 +1,6 @@
 ﻿namespace DoAnCuoiKi
 {
-    partial class Form1
+    partial class frmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.ckbLuu = new System.Windows.Forms.CheckBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -39,41 +40,45 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtIPDB = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ckbLuu
             // 
             this.ckbLuu.AutoSize = true;
             this.ckbLuu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.ckbLuu.Location = new System.Drawing.Point(73, 254);
+            this.ckbLuu.ForeColor = System.Drawing.Color.Red;
+            this.ckbLuu.Location = new System.Drawing.Point(76, 253);
             this.ckbLuu.Name = "ckbLuu";
-            this.ckbLuu.Size = new System.Drawing.Size(81, 23);
+            this.ckbLuu.Size = new System.Drawing.Size(147, 23);
             this.ckbLuu.TabIndex = 71;
-            this.ckbLuu.Text = "Ghi nhớ";
+            this.ckbLuu.Text = "Ghi nhớ tài khoản";
             this.ckbLuu.UseVisualStyleBackColor = true;
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(229, 304);
+            this.btnExit.BackgroundImage = global::DoAnCuoiKi.Properties.Resources.error;
+            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnExit.Location = new System.Drawing.Point(225, 301);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(78, 27);
+            this.btnExit.Size = new System.Drawing.Size(75, 66);
             this.btnExit.TabIndex = 70;
-            this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(91, 304);
+            this.btnLogin.BackgroundImage = global::DoAnCuoiKi.Properties.Resources.success;
+            this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLogin.Location = new System.Drawing.Point(98, 301);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(79, 27);
+            this.btnLogin.Size = new System.Drawing.Size(75, 66);
             this.btnLogin.TabIndex = 68;
-            this.btnLogin.Text = "Đăng nhập";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(183, 209);
+            this.txtPass.Location = new System.Drawing.Point(186, 208);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(145, 20);
@@ -81,7 +86,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(183, 145);
+            this.txtId.Location = new System.Drawing.Point(186, 156);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(145, 20);
             this.txtId.TabIndex = 66;
@@ -90,7 +95,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(69, 209);
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(72, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 19);
             this.label2.TabIndex = 65;
@@ -100,7 +106,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(69, 148);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(72, 159);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 19);
             this.label1.TabIndex = 64;
@@ -109,7 +116,7 @@
             // cbbChucVu
             // 
             this.cbbChucVu.FormattingEnabled = true;
-            this.cbbChucVu.Location = new System.Drawing.Point(183, 106);
+            this.cbbChucVu.Location = new System.Drawing.Point(186, 117);
             this.cbbChucVu.Name = "cbbChucVu";
             this.cbbChucVu.Size = new System.Drawing.Size(145, 21);
             this.cbbChucVu.TabIndex = 72;
@@ -119,7 +126,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(69, 103);
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(72, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 19);
             this.label3.TabIndex = 73;
@@ -128,7 +136,7 @@
             // 
             // txtIPDB
             // 
-            this.txtIPDB.Location = new System.Drawing.Point(183, 58);
+            this.txtIPDB.Location = new System.Drawing.Point(186, 69);
             this.txtIPDB.Name = "txtIPDB";
             this.txtIPDB.Size = new System.Drawing.Size(145, 20);
             this.txtIPDB.TabIndex = 75;
@@ -138,18 +146,32 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(69, 61);
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(72, 72);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(91, 19);
             this.label4.TabIndex = 74;
             this.label4.Text = "IP Database";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // Form1
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(107, 19);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(178, 31);
+            this.label5.TabIndex = 76;
+            this.label5.Text = "ĐĂNG NHẬP";
+            // 
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 391);
+            this.BackColor = System.Drawing.Color.Linen;
+            this.ClientSize = new System.Drawing.Size(410, 391);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.txtIPDB);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -161,8 +183,10 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ForeColor = System.Drawing.Color.Red;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "frmLogin";
+            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -182,6 +206,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtIPDB;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmXemLuong));
             this.lsvXemLuong = new System.Windows.Forms.ListView();
             this.label4 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -42,24 +43,27 @@
             // 
             // lsvXemLuong
             // 
-            this.lsvXemLuong.Location = new System.Drawing.Point(17, 206);
+            this.lsvXemLuong.Location = new System.Drawing.Point(12, 150);
             this.lsvXemLuong.Name = "lsvXemLuong";
-            this.lsvXemLuong.Size = new System.Drawing.Size(655, 63);
+            this.lsvXemLuong.Size = new System.Drawing.Size(655, 105);
             this.lsvXemLuong.TabIndex = 18;
             this.lsvXemLuong.UseCompatibleStateImageBehavior = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(315, 129);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(325, 89);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.Size = new System.Drawing.Size(51, 19);
             this.label4.TabIndex = 17;
             this.label4.Text = "Tháng";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(395, 127);
+            this.numericUpDown1.ForeColor = System.Drawing.Color.Red;
+            this.numericUpDown1.Location = new System.Drawing.Point(437, 88);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             12,
             0,
@@ -81,7 +85,7 @@
             // 
             // txtLoaiNV
             // 
-            this.txtLoaiNV.Location = new System.Drawing.Point(135, 88);
+            this.txtLoaiNV.Location = new System.Drawing.Point(157, 87);
             this.txtLoaiNV.Name = "txtLoaiNV";
             this.txtLoaiNV.ReadOnly = true;
             this.txtLoaiNV.Size = new System.Drawing.Size(147, 20);
@@ -89,7 +93,7 @@
             // 
             // txtTenCN
             // 
-            this.txtTenCN.Location = new System.Drawing.Point(424, 20);
+            this.txtTenCN.Location = new System.Drawing.Point(437, 19);
             this.txtTenCN.Name = "txtTenCN";
             this.txtTenCN.ReadOnly = true;
             this.txtTenCN.Size = new System.Drawing.Size(147, 20);
@@ -97,7 +101,7 @@
             // 
             // txtMaCN
             // 
-            this.txtMaCN.Location = new System.Drawing.Point(135, 20);
+            this.txtMaCN.Location = new System.Drawing.Point(157, 19);
             this.txtMaCN.Name = "txtMaCN";
             this.txtMaCN.ReadOnly = true;
             this.txtMaCN.Size = new System.Drawing.Size(147, 20);
@@ -106,27 +110,33 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(325, 20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.Size = new System.Drawing.Size(106, 19);
             this.label3.TabIndex = 12;
             this.label3.Text = "Tên công nhân";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(34, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(107, 19);
             this.label2.TabIndex = 11;
             this.label2.Text = "Loại nhân viên";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(34, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.Size = new System.Drawing.Size(104, 19);
             this.label1.TabIndex = 10;
             this.label1.Text = "Mã công nhân";
             // 
@@ -134,7 +144,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(699, 314);
+            this.BackColor = System.Drawing.Color.Linen;
+            this.ClientSize = new System.Drawing.Size(699, 295);
             this.Controls.Add(this.lsvXemLuong);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.numericUpDown1);
@@ -144,6 +155,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.Red;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmXemLuong";
             this.Text = "Xem lương";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
