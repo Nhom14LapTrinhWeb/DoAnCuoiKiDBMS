@@ -7,3 +7,6 @@ C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuo
 C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.pdb
 C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.exe
 C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
+D:\KI 1\HQTCSDL\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.exe.config
+D:\KI 1\HQTCSDL\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.exe
+D:\KI 1\HQTCSDL\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
