@@ -7,6 +7,24 @@ C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuo
 C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.pdb
 C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.exe
 C:\Users\tskil\onedrive\documents\visual studio 2013\Projects\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
+<<<<<<< HEAD
 D:\KI 1\HQTCSDL\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.exe.config
 D:\KI 1\HQTCSDL\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.exe
 D:\KI 1\HQTCSDL\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
+=======
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.exe.config
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.exe
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.exe
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.pdb
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.frmCapNhatThongTin.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.frmChamCong.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.frmDoiMatKhau.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.frmMain.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.frmXemDanhSach.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.frmXemLuong.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.Properties.Resources.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csproj.GenerateResource.Cache
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.frmLogin.resources
+C:\Users\tskil\Desktop\DoAnCuoiKiDBMS\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csprojResolveAssemblyReference.cache
+>>>>>>> 08ea7c2c9b264037567938b3985370b9f21652e5
